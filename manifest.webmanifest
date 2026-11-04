@@ -1,0 +1,19 @@
+{
+  "name": "随手事项本",
+  "short_name": "事项本",
+  "description": "随手记待办和灵感，完成后记时间，按时间段导出 Excel。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#EEF1EC",
+  "theme_color": "#27406B",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ],
+  "shortcuts": [
+    {"name": "记灵感", "url": "./?cat=media", "icons": [{"src": "icon-192.png", "sizes": "192x192"}]},
+    {"name": "记工作", "url": "./?cat=work", "icons": [{"src": "icon-192.png", "sizes": "192x192"}]}
+  ]
+}
